@@ -4,7 +4,7 @@
 #
 Name     : R-gert
 Version  : 1.3.1
-Release  : 11
+Release  : 12
 URL      : https://cran.r-project.org/src/contrib/gert_1.3.1.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/gert_1.3.1.tar.gz
 Summary  : Simple Git Client for R
@@ -50,10 +50,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1624923556
+export SOURCE_DATE_EPOCH=1626705645
 
 %install
-export SOURCE_DATE_EPOCH=1624923556
+export SOURCE_DATE_EPOCH=1626705645
 rm -rf %{buildroot}
 export LANG=C.UTF-8
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
@@ -140,3 +140,4 @@ R CMD check --no-manual --no-examples --no-codoc gert || :
 %defattr(-,root,root,-)
 /usr/lib64/R/library/gert/libs/gert.so
 /usr/lib64/R/library/gert/libs/gert.so.avx2
+/usr/lib64/R/library/gert/libs/gert.so.avx512
