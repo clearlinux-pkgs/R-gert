@@ -4,7 +4,7 @@
 #
 Name     : R-gert
 Version  : 1.4.3
-Release  : 20
+Release  : 21
 URL      : https://cran.r-project.org/src/contrib/gert_1.4.3.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/gert_1.4.3.tar.gz
 Summary  : Simple Git Client for R
