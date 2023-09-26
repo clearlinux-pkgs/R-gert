@@ -4,10 +4,10 @@
 # Using build pattern: R
 #
 Name     : R-gert
-Version  : 1.9.3
-Release  : 51
-URL      : https://cran.r-project.org/src/contrib/gert_1.9.3.tar.gz
-Source0  : https://cran.r-project.org/src/contrib/gert_1.9.3.tar.gz
+Version  : 2.0.0
+Release  : 52
+URL      : https://cran.r-project.org/src/contrib/gert_2.0.0.tar.gz
+Source0  : https://cran.r-project.org/src/contrib/gert_2.0.0.tar.gz
 Summary  : Simple Git Client for R
 Group    : Development/Tools
 License  : MIT
@@ -56,10 +56,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1691430039
+export SOURCE_DATE_EPOCH=1695745252
 
 %install
-export SOURCE_DATE_EPOCH=1691430039
+export SOURCE_DATE_EPOCH=1695745252
 rm -rf %{buildroot}
 export LANG=C.UTF-8
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
